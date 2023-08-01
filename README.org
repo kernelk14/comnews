@@ -11,6 +11,7 @@
     $ deno compile --unstable --allow-read --allow-env --allow-run --allow-net main.js
     $ ./comnews
     #+end_src
+
     
     Then, you also need a GitHub Personal Access Token. To access this, go to [[https://github.com/settings/tokens?type=beta][this link]] to add a fine-grained PAT. Copy the created token and save it as `gh_personal_access.txt` in the `comnews` directory.
   
@@ -21,6 +22,7 @@
     The `.reposub` file consists of repo names that is split into spaces.
     
     Example:
+      
       #+begin_src
       kernelk14/comnews SerenityOS/jakt torvalds/linux
       #+end_src
