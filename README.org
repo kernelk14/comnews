@@ -1,0 +1,17 @@
+* ComNews
+  ** Quick Start
+    First, you need Deno.
+    Then, do the steps below:
+    #+begin_src bash
+    $ git clone https://github.com/kernelk14
+    $ deno compile --unstable --allow-read --allow-env --allow-run --allow-net main.js
+    $ ./comnews
+    #+end_src
+    Then, you also need a GitHub Personal Access Token. To access this, go to [[https://github.com/settings/tokens?type=beta][this link]] to add a fine-grained PAT. Copy the created token and save it as `gh_personal_access.txt` in the `comnews` directory.
+  ** The `.reposub` file
+    *NOTE* : The `.reposub` file should be in your home directory ("/home/{YOUR USERNAME}/.reposub")
+    The `.reposub` file consists of repo names that is split into spaces.
+    Example:
+      #+begin_src
+      kernelk14/comnews SerenityOS/jakt torvalds/linux
+      #+end_src
