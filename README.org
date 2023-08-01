@@ -17,7 +17,7 @@
   
 ** The `.reposub` file
     
-  *NOTE* : The `.reposub` file should be in your home directory ("/home/{YOUR USERNAME}/.reposub")
+  *NOTE* : The `.reposub` file should be in your home directory ("/home/{YOUR USERNAME}/\/.reposub")
     
   The `.reposub` file consists of repo names that is split into spaces.
     
