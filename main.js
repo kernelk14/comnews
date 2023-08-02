@@ -61,11 +61,13 @@ try {
   // console.log(printrepo)
   const data = printrepo['data']
   let j = 0
+  console.clear()
   console.log("Commit Lists:")
   while (j < data.length) {
       const d1 = data[j]['commit']['message']
       const d2 = data[j]['commit']['committer']['name']
       const d3 = data[j]['commit']['committer']['date']
+      
       console.log(`\nDate: ${d3}\nCommitter: ${d2}\nCommit: ${d1}\n------------------------------------------------------`)
       j++
   }
